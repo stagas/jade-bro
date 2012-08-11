@@ -17,8 +17,9 @@ f.require('jade-bro', jadebro(__dirname + '/views'))
 
 ```javascript
 var render = require('jade-bro')
-render('some-view', { some: 'local' })
+var html = render('some-view', { some: 'local' })
 render.locals.foo = 'another'
+el.innerHTML = html
 ```
 
 ## API
@@ -29,7 +30,7 @@ render.locals.foo = 'another'
 
 ##### Browser:
 
-#### jadebro('viewName', { options })
+#### html = jadebro('viewName', { options })
 
 ## Licence
 
