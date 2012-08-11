@@ -2,7 +2,7 @@
   "author": "George Stagas <gstagas@gmail.com> (http://stagas.com)",
   "name": "jade-bro",
   "description": "Compile jade views plus runtime in a single module string",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "jade-bro.js",
   "dependencies": {
     "tosource": "~0.1.1",
